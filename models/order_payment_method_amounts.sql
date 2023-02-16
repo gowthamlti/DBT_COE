@@ -23,5 +23,6 @@ sum(case when payment_method = '{{payment_method}}' then amount end) as {{paymen
 {% endfor %}
 --sum(amount) as total_amount
 --from {{ ref('stg_payments') }}
+
 from {{ source('DBT_PRACTICE', 'stg_payments') }}
 group by 1
