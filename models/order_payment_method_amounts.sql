@@ -1,5 +1,5 @@
 --option 3: variable and Use whitespace control to tidy up compiled code
-{%- set payment_methods = ["bank_transfer", "credit_card", "gift_card"] -%}
+--{%- set payment_methods = ["bank_transfer", "credit_card", "gift_card"] -%}
 --option 4: marco
 {% set payment_methods = get_payment_methods() %}
 
