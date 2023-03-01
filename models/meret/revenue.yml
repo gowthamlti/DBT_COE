@@ -7,7 +7,7 @@ metrics:
     description: "The total revenue of out business"	## optional
 
     calculation_method: sum		## required
-    expression: amount						## required
+    expression: TOTAL_AMOUNT						## required
 
     timestamp: order_date		## optional
     time_grains: [day, week, month, year]
