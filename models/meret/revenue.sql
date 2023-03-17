@@ -1,6 +1,6 @@
 select *
 from {{
-    metric.calcuate(
+    metrics.calculate(
         metric('revenue'),
         grain='day',
         dimensions=['customer_status']
